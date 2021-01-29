@@ -11,7 +11,7 @@ export default function service (options) {
       },
       timeout: 30 * 1000, // 30秒超时
       // `withCredentials` 表示跨域请求时是否需要使用凭证
-      withCredentials: true
+      withCredentials: false
     })
     instance(options)
       .then(response => {

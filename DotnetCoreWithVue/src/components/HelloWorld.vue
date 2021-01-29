@@ -94,7 +94,7 @@ export default {
   },
   mounted () {
     request({
-      url: 'api/values',
+      url: 'http://localhost:40051/api/values',
       method: 'get'
     }).then(response => {
       console.log(response)
