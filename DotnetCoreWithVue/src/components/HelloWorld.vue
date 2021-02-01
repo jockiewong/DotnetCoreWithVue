@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <p><router-link to='/first'>goto first page</router-link></p>
   </div>
 </template>
 
